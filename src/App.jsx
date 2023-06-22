@@ -22,7 +22,7 @@ function App() {
   // const URLA = 'http://localhost:3001/activities'
 
   const URLC = 'https://countries-backend-production.up.railway.app/countries'
-  const URLA = 'https://countries-4-u-back-production.up.railway.app/activities'
+  const URLA = 'https://https://countries-backend-production.up.railway.app/activities'
   const location = useLocation()
 
 // useEffect que llama a los countries para que ya esten cargadas
