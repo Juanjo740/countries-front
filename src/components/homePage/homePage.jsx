@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 import CountryCard from '../countryCard/countryCard'
 import SearchBar from '../searchBar/searchBar';
 import FilterBar from '../filterBar/filterBar';
-import style from './HomePage.module.css'
+import style from './homePage.module.css'
 
 const countriesPerPage = 12
 const threshold = 2
