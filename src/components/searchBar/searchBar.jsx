@@ -6,7 +6,7 @@ import style from './searchBar.module.css'
 
 const SearchBar = () => {
     
-    const URL = 'http://localhost:3001/countries'
+    const URL = 'https://countries-backend-production.up.railway.app/countries'
     const dispatch = useDispatch()
     const [ search, setSearch] = useState('')
     const [ error, setError] = useState('')

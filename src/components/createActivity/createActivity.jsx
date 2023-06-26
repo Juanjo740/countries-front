@@ -8,7 +8,7 @@ import style from "./createActivity.module.css"
 
 const CreateActivity = () => {
     
-    const URL = 'http://localhost:3001/activities'
+    const URL = 'https://countries-backend-production.up.railway.app/activities'
     const dispatch = useDispatch()
     const navigate = useNavigate()
 

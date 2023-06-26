@@ -9,7 +9,7 @@ import style from "./countryDetail.module.css"
 const CountryDetail = () => {
 
     const { id } = useParams()
-    const URL = 'http://localhost:3001/countries'
+    const URL = 'https://countries-backend-production.up.railway.app/countries'
     const dispatch = useDispatch()
 
     useEffect(()=>{

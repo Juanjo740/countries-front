@@ -6,7 +6,7 @@ import style from './searchBarActivities.module.css'
 
 const SearchBarActivities = () => {
     
-    const URL = 'http://localhost:3001/activities'
+    const URL = 'https://countries-backend-production.up.railway.app/activities'
     const dispatch = useDispatch()
     const [ search, setSearch] = useState('')
     const [ error, setError] = useState('')
